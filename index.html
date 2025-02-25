@@ -160,15 +160,8 @@
     
     <script>
         function downloadVideo() {
-            let url = document.getElementById("url").value;
-            if (url.trim() === "") {
-                alert("Please enter a valid Instagram URL");
-                return;
-            }
-            // Fake preview for demo
-            document.getElementById("preview").src = "https://via.placeholder.com/400";
-            document.getElementById("downloadLink").href = "https://via.placeholder.com/400";
-            document.getElementById("result").style.display = "block";
+            
+            window.location.href = "https://fastdl.app/en";
         }
     </script>
 </body>
